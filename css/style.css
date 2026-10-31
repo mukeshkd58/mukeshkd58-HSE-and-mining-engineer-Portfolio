@@ -140,3 +140,14 @@ dialog ul{padding-left:1.1rem}
   *{transition:none!important;animation:none!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* experience certificates */
+.docs{margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--line)}
+.docs h4{margin:0 0 .7rem;color:var(--accent);font-size:.9rem}
+.docs-grid{display:flex;flex-wrap:wrap;gap:1rem}
+.doc{display:block;width:min(180px,44%);text-decoration:none;color:var(--muted);font-size:.8rem;text-align:center;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg);transition:border-color .2s,transform .2s}
+.doc:hover{border-color:var(--accent);transform:translateY(-2px)}
+.doc img{width:100%;height:auto;background:#fff}
+.doc span{display:block;padding:.45rem .3rem}
+.doc:hover span{color:var(--accent)}
+@media (max-width:480px){.doc{width:calc(50% - .5rem)}}
